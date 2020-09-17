@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-VKVezdekod/Pods-VKVezdekod-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LBTATools/LBTATools.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework

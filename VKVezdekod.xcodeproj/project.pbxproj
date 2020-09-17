@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34128A1A250C1C3E00DAFCBC /* SelectTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A19250C1C3E00DAFCBC /* SelectTypeButton.swift */; };
+		34128A1C250C2B4000DAFCBC /* CreateFirstStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A1B250C2B4000DAFCBC /* CreateFirstStepViewController.swift */; };
+		34128A1E250C2FB100DAFCBC /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A1D250C2FB100DAFCBC /* InputView.swift */; };
+		34128A20250C4AC100DAFCBC /* CoverSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A1F250C4AC100DAFCBC /* CoverSelectionView.swift */; };
+		34128A23250CC42900DAFCBC /* CoverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A22250CC42900DAFCBC /* CoverDelegate.swift */; };
+		34128A26250CD33A00DAFCBC /* Sbor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A25250CD33A00DAFCBC /* Sbor.swift */; };
+		34128A28250CD4F500DAFCBC /* SborsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A27250CD4F500DAFCBC /* SborsListViewController.swift */; };
+		34128A2A250CD52A00DAFCBC /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A29250CD52A00DAFCBC /* ListItemCell.swift */; };
+		34128A2C250CD73300DAFCBC /* ExtraStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A2B250CD73300DAFCBC /* ExtraStepViewController.swift */; };
+		34C0CDB9250BD93000829008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDB8250BD93000829008 /* AppDelegate.swift */; };
+		34C0CDBB250BD93000829008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDBA250BD93000829008 /* SceneDelegate.swift */; };
+		34C0CDBD250BD93000829008 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDBC250BD93000829008 /* InitViewController.swift */; };
+		34C0CDC2250BD93700829008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C0CDC1250BD93700829008 /* Assets.xcassets */; };
+		34C0CDC5250BD93700829008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C0CDC3250BD93700829008 /* LaunchScreen.storyboard */; };
+		34C0CDCE250BE27300829008 /* TTCommons-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34C0CDCD250BE27300829008 /* TTCommons-DemiBold.ttf */; };
+		34C0CDD4250BE35F00829008 /* RouteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDD0250BE35F00829008 /* RouteProvider.swift */; };
+		34C0CDD6250BE35F00829008 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDD2250BE35F00829008 /* App.swift */; };
+		34C0CDDE250BE3A400829008 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDD9250BE3A400829008 /* Validations.swift */; };
+		34C0CDDF250BE3A400829008 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDDA250BE3A400829008 /* Extensions.swift */; };
+		34C0CDE0250BE3A400829008 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDDB250BE3A400829008 /* Fonts.swift */; };
+		34C0CDE1250BE3A400829008 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDDC250BE3A400829008 /* Colors.swift */; };
+		34C0CDF0250BE49700829008 /* VKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDE5250BE49700829008 /* VKNavigationController.swift */; };
+		34C0CDF1250BE49700829008 /* VKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDE6250BE49700829008 /* VKButton.swift */; };
+		34C0CDF6250BE49700829008 /* VKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDEC250BE49700829008 /* VKViewController.swift */; };
+		34C0CDF7250BE49700829008 /* VKStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDED250BE49700829008 /* VKStackViewController.swift */; };
+		34C0CDFA250BED4300829008 /* VKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDF9250BED4300829008 /* VKLabel.swift */; };
+		34C0CDFD250C175D00829008 /* SelectTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDFC250C175D00829008 /* SelectTypeViewController.swift */; };
+		B5A5FC5363FB5461C3A741BD /* Pods_VKVezdekod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C9D8E6E624C6EBBBEC3177 /* Pods_VKVezdekod.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11C9D8E6E624C6EBBBEC3177 /* Pods_VKVezdekod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKVezdekod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF5BD716A22AE2A2050D6B4 /* Pods-VKVezdekod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVezdekod.debug.xcconfig"; path = "Target Support Files/Pods-VKVezdekod/Pods-VKVezdekod.debug.xcconfig"; sourceTree = "<group>"; };
+		34128A19250C1C3E00DAFCBC /* SelectTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTypeButton.swift; sourceTree = "<group>"; };
+		34128A1B250C2B4000DAFCBC /* CreateFirstStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFirstStepViewController.swift; sourceTree = "<group>"; };
+		34128A1D250C2FB100DAFCBC /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		34128A1F250C4AC100DAFCBC /* CoverSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverSelectionView.swift; sourceTree = "<group>"; };
+		34128A22250CC42900DAFCBC /* CoverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverDelegate.swift; sourceTree = "<group>"; };
+		34128A25250CD33A00DAFCBC /* Sbor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sbor.swift; sourceTree = "<group>"; };
+		34128A27250CD4F500DAFCBC /* SborsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SborsListViewController.swift; sourceTree = "<group>"; };
+		34128A29250CD52A00DAFCBC /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		34128A2B250CD73300DAFCBC /* ExtraStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraStepViewController.swift; sourceTree = "<group>"; };
+		34C0CDB5250BD93000829008 /* VKVezdekod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKVezdekod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C0CDB8250BD93000829008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34C0CDBA250BD93000829008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34C0CDBC250BD93000829008 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		34C0CDC1250BD93700829008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C0CDC4250BD93700829008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C0CDC6250BD93700829008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C0CDCD250BE27300829008 /* TTCommons-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTCommons-DemiBold.ttf"; sourceTree = "<group>"; };
+		34C0CDD0250BE35F00829008 /* RouteProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteProvider.swift; sourceTree = "<group>"; };
+		34C0CDD2250BE35F00829008 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		34C0CDD9250BE3A400829008 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		34C0CDDA250BE3A400829008 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		34C0CDDB250BE3A400829008 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		34C0CDDC250BE3A400829008 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		34C0CDE5250BE49700829008 /* VKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKNavigationController.swift; sourceTree = "<group>"; };
+		34C0CDE6250BE49700829008 /* VKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKButton.swift; sourceTree = "<group>"; };
+		34C0CDEC250BE49700829008 /* VKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKViewController.swift; sourceTree = "<group>"; };
+		34C0CDED250BE49700829008 /* VKStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKStackViewController.swift; sourceTree = "<group>"; };
+		34C0CDF9250BED4300829008 /* VKLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLabel.swift; sourceTree = "<group>"; };
+		34C0CDFC250C175D00829008 /* SelectTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTypeViewController.swift; sourceTree = "<group>"; };
+		A41EA6CA6C5D09B8703C6A1C /* Pods-VKVezdekod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVezdekod.release.xcconfig"; path = "Target Support Files/Pods-VKVezdekod/Pods-VKVezdekod.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C0CDB2250BD93000829008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5FC5363FB5461C3A741BD /* Pods_VKVezdekod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0BF7792635FB47F9DAACC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5BD716A22AE2A2050D6B4 /* Pods-VKVezdekod.debug.xcconfig */,
+				A41EA6CA6C5D09B8703C6A1C /* Pods-VKVezdekod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34128A18250C1BFF00DAFCBC /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				34128A19250C1C3E00DAFCBC /* SelectTypeButton.swift */,
+				34128A1D250C2FB100DAFCBC /* InputView.swift */,
+				34128A1F250C4AC100DAFCBC /* CoverSelectionView.swift */,
+				34128A29250CD52A00DAFCBC /* ListItemCell.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		34128A21250CC40E00DAFCBC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				34128A22250CC42900DAFCBC /* CoverDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		34128A24250CC73300DAFCBC /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				34128A25250CD33A00DAFCBC /* Sbor.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		34C0CDAC250BD93000829008 = {
+			isa = PBXGroup;
+			children = (
+				34C0CDB7250BD93000829008 /* VKVezdekod */,
+				34C0CDB6250BD93000829008 /* Products */,
+				2B0BF7792635FB47F9DAACC5 /* Pods */,
+				49F585F8A1350A88ECFA2908 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34C0CDB6250BD93000829008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C0CDB5250BD93000829008 /* VKVezdekod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C0CDB7250BD93000829008 /* VKVezdekod */ = {
+			isa = PBXGroup;
+			children = (
+				34128A24250CC73300DAFCBC /* Structs */,
+				34128A21250CC40E00DAFCBC /* Protocols */,
+				34C0CDFB250C173700829008 /* CoreViewControllers */,
+				34C0CDE3250BE49700829008 /* CustomElements */,
+				34C0CDD8250BE3A400829008 /* Helpers */,
+				34C0CDCF250BE35E00829008 /* App */,
+				34C0CDCC250BE21F00829008 /* Fonts */,
+				34C0CDB8250BD93000829008 /* AppDelegate.swift */,
+				34C0CDBA250BD93000829008 /* SceneDelegate.swift */,
+				34C0CDC1250BD93700829008 /* Assets.xcassets */,
+				34C0CDC3250BD93700829008 /* LaunchScreen.storyboard */,
+				34C0CDC6250BD93700829008 /* Info.plist */,
+			);
+			path = VKVezdekod;
+			sourceTree = "<group>";
+		};
+		34C0CDCC250BE21F00829008 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				34C0CDCD250BE27300829008 /* TTCommons-DemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		34C0CDCF250BE35E00829008 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				34C0CDD0250BE35F00829008 /* RouteProvider.swift */,
+				34C0CDD2250BE35F00829008 /* App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		34C0CDD8250BE3A400829008 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				34C0CDD9250BE3A400829008 /* Validations.swift */,
+				34C0CDDA250BE3A400829008 /* Extensions.swift */,
+				34C0CDDB250BE3A400829008 /* Fonts.swift */,
+				34C0CDDC250BE3A400829008 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		34C0CDE3250BE49700829008 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				34C0CDE5250BE49700829008 /* VKNavigationController.swift */,
+				34C0CDE6250BE49700829008 /* VKButton.swift */,
+				34C0CDEC250BE49700829008 /* VKViewController.swift */,
+				34C0CDED250BE49700829008 /* VKStackViewController.swift */,
+				34C0CDF9250BED4300829008 /* VKLabel.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		34C0CDFB250C173700829008 /* CoreViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				34128A18250C1BFF00DAFCBC /* SubViews */,
+				34C0CDBC250BD93000829008 /* InitViewController.swift */,
+				34C0CDFC250C175D00829008 /* SelectTypeViewController.swift */,
+				34128A1B250C2B4000DAFCBC /* CreateFirstStepViewController.swift */,
+				34128A27250CD4F500DAFCBC /* SborsListViewController.swift */,
+				34128A2B250CD73300DAFCBC /* ExtraStepViewController.swift */,
+			);
+			path = CoreViewControllers;
+			sourceTree = "<group>";
+		};
+		49F585F8A1350A88ECFA2908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C9D8E6E624C6EBBBEC3177 /* Pods_VKVezdekod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C0CDB4250BD93000829008 /* VKVezdekod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C0CDC9250BD93700829008 /* Build configuration list for PBXNativeTarget "VKVezdekod" */;
+			buildPhases = (
+				12BB39160DF81BF2E2AE0E13 /* [CP] Check Pods Manifest.lock */,
+				34C0CDB1250BD93000829008 /* Sources */,
+				34C0CDB2250BD93000829008 /* Frameworks */,
+				34C0CDB3250BD93000829008 /* Resources */,
+				3DE064487D5E8C76EE8206B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKVezdekod;
+			productName = VKVezdekod;
+			productReference = 34C0CDB5250BD93000829008 /* VKVezdekod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C0CDAD250BD93000829008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					34C0CDB4250BD93000829008 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 34C0CDB0250BD93000829008 /* Build configuration list for PBXProject "VKVezdekod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C0CDAC250BD93000829008;
+			productRefGroup = 34C0CDB6250BD93000829008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C0CDB4250BD93000829008 /* VKVezdekod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C0CDB3250BD93000829008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C0CDCE250BE27300829008 /* TTCommons-DemiBold.ttf in Resources */,
+				34C0CDC5250BD93700829008 /* LaunchScreen.storyboard in Resources */,
+				34C0CDC2250BD93700829008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BB39160DF81BF2E2AE0E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKVezdekod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE064487D5E8C76EE8206B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKVezdekod/Pods-VKVezdekod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKVezdekod/Pods-VKVezdekod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKVezdekod/Pods-VKVezdekod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C0CDB1250BD93000829008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34128A28250CD4F500DAFCBC /* SborsListViewController.swift in Sources */,
+				34128A2A250CD52A00DAFCBC /* ListItemCell.swift in Sources */,
+				34C0CDE0250BE3A400829008 /* Fonts.swift in Sources */,
+				34128A23250CC42900DAFCBC /* CoverDelegate.swift in Sources */,
+				34C0CDE1250BE3A400829008 /* Colors.swift in Sources */,
+				34C0CDF0250BE49700829008 /* VKNavigationController.swift in Sources */,
+				34128A1C250C2B4000DAFCBC /* CreateFirstStepViewController.swift in Sources */,
+				34128A2C250CD73300DAFCBC /* ExtraStepViewController.swift in Sources */,
+				34C0CDD4250BE35F00829008 /* RouteProvider.swift in Sources */,
+				34C0CDBD250BD93000829008 /* InitViewController.swift in Sources */,
+				34C0CDFA250BED4300829008 /* VKLabel.swift in Sources */,
+				34C0CDF1250BE49700829008 /* VKButton.swift in Sources */,
+				34128A1A250C1C3E00DAFCBC /* SelectTypeButton.swift in Sources */,
+				34C0CDD6250BE35F00829008 /* App.swift in Sources */,
+				34C0CDF6250BE49700829008 /* VKViewController.swift in Sources */,
+				34C0CDFD250C175D00829008 /* SelectTypeViewController.swift in Sources */,
+				34128A1E250C2FB100DAFCBC /* InputView.swift in Sources */,
+				34128A26250CD33A00DAFCBC /* Sbor.swift in Sources */,
+				34C0CDB9250BD93000829008 /* AppDelegate.swift in Sources */,
+				34128A20250C4AC100DAFCBC /* CoverSelectionView.swift in Sources */,
+				34C0CDDE250BE3A400829008 /* Validations.swift in Sources */,
+				34C0CDF7250BE49700829008 /* VKStackViewController.swift in Sources */,
+				34C0CDBB250BD93000829008 /* SceneDelegate.swift in Sources */,
+				34C0CDDF250BE3A400829008 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34C0CDC3250BD93700829008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C0CDC4250BD93700829008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C0CDC7250BD93700829008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34C0CDC8250BD93700829008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C0CDCA250BD93700829008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF5BD716A22AE2A2050D6B4 /* Pods-VKVezdekod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFR2B9U6J8;
+				INFOPLIST_FILE = VKVezdekod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.VKVezdekod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		34C0CDCB250BD93700829008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41EA6CA6C5D09B8703C6A1C /* Pods-VKVezdekod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFR2B9U6J8;
+				INFOPLIST_FILE = VKVezdekod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.VKVezdekod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C0CDB0250BD93000829008 /* Build configuration list for PBXProject "VKVezdekod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C0CDC7250BD93700829008 /* Debug */,
+				34C0CDC8250BD93700829008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C0CDC9250BD93700829008 /* Build configuration list for PBXNativeTarget "VKVezdekod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C0CDCA250BD93700829008 /* Debug */,
+				34C0CDCB250BD93700829008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C0CDAD250BD93000829008 /* Project object */;
+}

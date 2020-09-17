@@ -1,0 +1,6 @@
+framework module Pods_VKVezdekod {
+  umbrella header "Pods-VKVezdekod-umbrella.h"
+
+  export *
+  module * { export * }
+}
